@@ -23,6 +23,8 @@ export default function PostPage({
   posts,
   globalData,
 }) {
+  console.log("post da api", posts)
+  console.log(globalData)
   return (
     <Layout>
       <SEO
